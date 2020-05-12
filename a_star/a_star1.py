@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 import pandas as pd
 
-data = pd.read_csv("map.csv", names=['source', 'dest', 'weight'],usecols=[0, 1, 5])
+data = pd.read_csv("../map.csv", names=['source', 'dest', 'weight'],usecols=[0, 1, 5])
 
 allPueblos = []
 for i in data['source']:
